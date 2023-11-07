@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+}
+
+#game-container {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+#dinosaur {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+#obstacle {
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
